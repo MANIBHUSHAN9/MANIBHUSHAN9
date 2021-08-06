@@ -1,0 +1,136 @@
+1. <html lang="en">
+    <head>
+        <title>Document</title>
+    </head>
+     <body>
+                
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+        guvi
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+2.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+guvi
+Guvi Geek Network
+3.Design a contact us form with all fields as required.
+
+HTML:-
+<html lang="en">
+    <head>
+        <title>Document
+            
+        </title>
+        <link rel="stylesheet" href="\html\day4\task.css">
+       
+    </head>
+    <body>
+        <div class="head">Contact Box</div>
+        
+    <div class="contact-box">
+        <form>
+<input type="text" class="input-field" placeholder="your name">
+<input type="email" class="input-field" placeholder="your email">
+<input type="text" class="input-field" placeholder="subject">
+<textarea type="text" class="input-field textarea-field" placeholder="your message">
+    </textarea>
+    <button type="button"class="btn">Send Message</button>
+        </form>
+        
+        
+            </div>
+        </body>
+    </html>
+  CSS:-
+  *{
+    margin: 0;
+    padding:0;
+
+}
+body{
+    background-color:cadetblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.contact-box{
+    width: 500px;
+    background-color: cornflowerblue;
+    box-shadow:0 0 20px 0 #999 ;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+form{
+    margin: 35px;
+}
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+
+}
+.btn{
+    border-radius:20px ;
+    color:#fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #47c35a;
+    font-size:12px;
+    border:none;
+    cursor:pointer;
+}
+.head{
+    width:150px;
+    color:black;
+    top:50%;
+    left: 50%;
+    transform: translate(600%,200%);
+    
+}
+4.Use certain HTML elements to display the following in a HTML page.
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>FOUR</title>
+        
+        
+    </head>
+    <body>
+       <dl>
+           <dt><ul><li><h3>Programming Language</h3></li></ul>
+            <dd><dt><ul><li><h4>Java script</h4></li></ul>
+                <dd>a.Angular</dd>
+                <dd>b.React</dd>
+                <dd>c.Vue.js</dd>
+            </dt>
+            </dd>
+            <dd><dt><ul><li><h4>Python</h4></li></ul>
+            <dd>a.Django Framework</dd>
+             <dd>b.Flask Framework</dd></dt></dd>
+             <dd><dt><ul><li><h4>Java</h4></li></ul>
+            <dd>a.Spring</dd>
+            <dd>b.Maven</dd>
+            <dd>c.Hibernate</dd></dt></dd></dt>
+            <dt><ul><li><h3>Database</h3></li></ul>
+            <dd><dt><ul><li><h4>MySQL</h4></li><li><h4>MangoDB</h4></li><li><h4>Cansandra</h4></li></ul></dt></dd></dt>
+    
+           </dl>
+       </body>
+</html>
+5.

@@ -133,4 +133,103 @@ form{
            </dl>
        </body>
 </html>
-5.
+5.Create an element that helps you to open the https://google.com in separate new tab.
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>doc</title>
+    </head>
+    <body>
+        <a href="https://www.google.com/" target="_blank">click me</a>
+    </body>
+</html>
+6.In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+<html lang="en">
+    <head>
+        <title>Document
+            
+        </title>
+        <link rel="stylesheet" href="\html\TASK\task.css">
+       
+    </head>
+    <body>
+        <div class="head">Contact Box</div>
+        
+    <div class="contact-box">
+        <form>
+<input type="text" class="input-field" placeholder="your name">
+<input type="email" class="input-field" placeholder="your email">
+<input type="text" class="input-field" placeholder="subject">
+<br>
+<input type="radio" name="group1">If you are salaried<br>
+<input type="radio" name="group1">if you have your own business
+<br><br>
+
+<textarea type="text" class="input-field textarea-field" placeholder="your message">
+    </textarea>
+    <button type="button"class="btn">Send Message</button>
+        </form>
+        
+        
+            </div>
+        </body>
+    </html>
+7.Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)
+HTML:
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>doc</title>
+        <link rel="stylesheet" href="/html/TASK/taskform.css">
+        </head>
+        <body>
+            <div class="container" id="html">
+                <h2>Yes! I want to Mag-O-Zine</h2>
+                <form>
+                <label>First name :</label>
+                <input type="text">
+                <label>Last Name</label>
+                <input type="text"><br>
+                <lable>Address :</lable>
+                <input type="text"><br>
+                <lable>City</lable>
+                <input type="text">
+                <lable>State</lable>
+                <input type="text">
+                <lable>Zip</lable>
+                <input type="text">
+                <br>
+                <label>Subscribe for:</label>
+                <input type="radio" id="html">
+                <lable>1 year ($35.00)</lable>
+                <input type="radio" id="html">
+                
+                <label>2 years ($35.00)</label>
+                <br>
+                <label>Send me more information about:</label><br>
+                <input type="checkbox">
+                <label>Computer-Zine</label><br>
+                <input type="checkbox">
+                <label>Fishing-Zine</label>
+                <br>
+                <input type="checkbox">
+                <lable>Cat-O-Zine</lable>
+</form>
+
+            </div>
+
+        </body>
+        </html>
+CSS:.container{
+    background-color: rgb(239, 245, 234);
+    border:5px solid black ;
+}
+h2{
+    background-color: red;
+}
+label{
+text-decoration-line: underline;
+}

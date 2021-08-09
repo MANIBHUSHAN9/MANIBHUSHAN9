@@ -233,3 +233,49 @@ h2{
 label{
 text-decoration-line: underline;
 }
+8.Use the table tag to design given image Click here.
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>doc</title>
+    </head>
+    <body>
+        <table border=1 bordercolor="black" width="100%" cellspacing=0>
+        <tr>
+            <th>State of Health</th>
+
+            <th colspan="2">Fasting Value</th>
+
+            <th>After EatingS</th>
+        </tr>
+        <tr>
+            <th></th>
+            <th>Minimum</th>
+            <th>Maimum</th>
+            <th>2 hours after eating</th>
+        </tr>
+        <tr>
+            <td>Healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 140</td>
+
+        </tr>
+        <tr>
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+        </tr>
+        
+    </table>
+    </body>
+</html>
+9.
+Write HTML input tags snippet to show default values for all Form elements.

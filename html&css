@@ -277,5 +277,39 @@ text-decoration-line: underline;
     </table>
     </body>
 </html>
-9.
-Write HTML input tags snippet to show default values for all Form elements.
+9.Write HTML input tags snippet to show default values for all Form elements.
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>doc</title>
+    </head>
+    <body>
+        <input type="text" size="32" value="1000" name="fee" /><br>
+        <lable>select car:</lable>
+        <select id="cars" name="cars" size="3" multiple>
+            <option value="thar">thar</option>
+            <option value="jeep">jeep</option>
+        </select>
+        <br>
+        <textarea name="message" rows="10" cols="30">
+            
+2-Way Text Reminders
+Set Up Delivery from Your Calendar
+Your text reminders go out automatically from your scheduler and remind customers of their appointments.
+
+Get Appointment Confirmations!
+2-way text messaging makes it easy for your audience to respond instantly. Just set up an email address to receive responses or reply to them live from your dashboard.
+</textarea>
+
+
+
+        
+        
+  
+    </body>
+</html>
+10.In your, HTML page add the below line and Highlight it without using any CSS.
+"HTML & CSS is awesome"
+
+
